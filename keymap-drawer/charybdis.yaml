@@ -28,122 +28,122 @@ layers:
   - V
   - K
   - H
-  - AltGr+W
-  - AltGr+Q
-  - AltGr+P
-  - {t: '$$mdi:keyboard-esc$$', h: Navigation}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - {t: '$$mdi:keyboard-tab$$', h: Numeral/Function}
-  - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: '$$mdi:backspace$$', h: Symbol}
-  - $$mdi:keyboard-esc$$
-  Navigation:
-  - BT CLR
-  - ''
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - ''
-  - ''
-  - PG UP
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - '&mkp RCLK'
+  - {t: '$$mdi:keyboard-space$$', h: Media/Navigation}
   - '&mkp LCLK'
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', h: Symbol}
+  Media/Navigation:
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
   - ''
+  - PAGE UP
+  - HOME
+  - ''
+  - END
+  - ''
+  - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:volume-high$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:skip-next$$
   - ''
   - H
   - J
   - K
   - L
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - '&msc SCRL_DOWN'
+  - PAGE DOWN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RET
-  - $$mdi:backspace-reverse-outline$$
-  Numeral/Function:
   - ''
+  - {type: held}
+  - ''
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  Numeral/Function:
+  - $$mdi:bluetooth-off$$
   - F7
   - F8
   - F9
-  - F12
+  - F10
   - ''
   - '7'
   - '8'
   - '9'
   - ''
-  - ''
-  - F4
-  - F5
-  - F6
+  - $$mdi:apple-keyboard-shift$$
+  - {t: F4, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F5, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
   - F11
   - ''
-  - '4'
-  - '5'
-  - '6'
-  - ''
+  - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '5', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
+  - $$mdi:apple-keyboard-shift$$
   - ''
   - F1
   - F2
   - F3
-  - F10
+  - F12
   - ''
   - '1'
   - '2'
   - '3'
   - ''
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - ''
   - ''
+  - ''
+  - '0'
   Symbol:
-  - '~'
-  - '&'
-  - '*'
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))
+  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT))))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE))))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH)))
+  - '&hml LSHFT ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK))))'
+  - '&hml LGUI ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))))'
+  - '&hml LALT ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK))))'
+  - '&hml LCTRL ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_4_AND_DOLLAR))))'
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD EQUAL AND PLUS)))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
+  - '&hmr LCTRL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
+  - '&hmr LALT ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))))'
+  - '&hmr RGUI ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS))))'
+  - '&hmr LSHFT ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))))'
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET))))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
+  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE)))
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))))
+  - ((RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))))
+  - ((RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))))
+  - ','
+  - .
   - ''
-  - +
   - ''
-  - '{'
-  - '}'
-  - ''
-  - '|'
-  - '-'
-  - $
-  - '%'
-  - ^
-  - '='
-  - ''
-  - (
-  - )
-  - '"'
-  - ''''
-  - _
-  - '!'
-  - '@'
-  - '#'
-  - '`'
-  - ''
-  - '['
-  - ']'
-  - ''
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
 combos:
 - p: [11, 12]
   k: '&mkp LCLK'
