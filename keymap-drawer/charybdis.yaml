@@ -82,7 +82,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - ''
+  - '&bootloader'
   - $$mdi:apple-keyboard-shift$$
   - {t: F4, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F5, h: '$$mdi:apple-keyboard-option$$'}
