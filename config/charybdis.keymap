@@ -9,6 +9,7 @@
 #define MEDNAV 1
 #define NUFU 2
 #define SYM 3
+#define SCROLL 4
 
 &sl {
   release-after-ms = <250>;
@@ -60,10 +61,10 @@
         Base {
             label = "Base";
             bindings = <
-                &kp       Q  &kp       W  &kp        F  &kp        P      &kp B                &kp J         &kp        L  &kp        U  &kp       Y      &none
-                &hml LSHFT A  &hml LGUI R  &hml LALT S  &hml LCTRL T      &kp G                &kp M         &hmr LCTRL N  &hmr LALT E  &hmr RGUI I      &hmr LSHFT O
-                &kp Z        &kp       X  &kp        C  &kp        D      &kp V                &kp K         &kp        H  &kp SV_A_RING &kp SV_A_UMLAUT  &kp SV_O_UMLAUT
-                                          &lt NUFU TAB  &lt MEDNAV SPACE  &mkp LCLK            &kp ESC       &lt SYM BSPC
+                &kp       Q  &kp       W  &kp        F  &kp        P      &kp B                 &kp J         &kp        L  &kp        U  &kp       Y      &none
+                &hml LSHFT A  &hml LGUI R  &hml LALT S  &hml LCTRL T      &kp G                 &kp M         &hmr LCTRL N  &hmr LALT E  &hmr RGUI I      &hmr LSHFT O
+                &kp Z        &kp       X  &kp        C  &kp        D      &kp V                 &kp K         &kp        H  &kp SV_A_RING &kp SV_A_UMLAUT  &kp SV_O_UMLAUT
+                                          &lt NUFU TAB  &lt MEDNAV SPACE  &lt SCROLL LCLK      &kp ESC       &lt SYM BSPC
             >;
         };
 
@@ -94,6 +95,16 @@
                 &hml LSHFT SV_LBKT  &hml LGUI SV_LBRC  &hml LALT SV_LPAR  &hml LCTRL SV_DLLR  &kp SV_GRAVE        &kp SV_EQUAL  &hmr LCTRL SV_MINUS  &hmr LALT SV_RPAR  &hmr RGUI SV_RBRC  &hmr LSHFT SV_RBKT
                 &kp SV_EXCL        &kp SV_AMPS        &kp SV_SLASH        &kp SV_APOS         &kp SV_PIPE         &kp SV_CARET  &kp SV_DQT           &kp SV_BSLH         &kp SV_AT          &kp SV_QMARK
                                                       &kp COMMA           &kp DOT             &none               &none         &none
+            >;
+        };
+
+        Scroll {
+            label = "Scroll";
+            bindings = <
+                &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans        &trans  &trans
             >;
         };
     };
