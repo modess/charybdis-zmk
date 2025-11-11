@@ -3,14 +3,14 @@ layers:
   Base:
   - Q
   - W
-  - F
+  - {t: F, h: Scroll}
   - P
   - B
   - J
   - L
-  - U
+  - {t: U, h: Scroll}
   - Y
-  - ''
+  - '&mkp LCLK'
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: R, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -33,14 +33,14 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - {t: '$$mdi:keyboard-tab$$', h: Numeral/Function}
   - {t: '$$mdi:keyboard-space$$', h: Media/Navigation}
-  - {t: LCLK, h: Scroll}
+  - '&mkp LCLK'
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', h: Symbol}
   Media/Navigation:
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - PAGE UP
   - HOME
@@ -61,7 +61,7 @@ layers:
   - '&mkp MCLK'
   - '&mkp RCLK'
   - '&mkp LCLK'
-  - '&msc SCRL_DOWN'
+  - ''
   - PAGE DOWN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -82,7 +82,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '&bootloader'
+  - ''
   - $$mdi:apple-keyboard-shift$$
   - {t: F4, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F5, h: '$$mdi:apple-keyboard-option$$'}
@@ -93,7 +93,7 @@ layers:
   - {t: '5', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:apple-keyboard-shift$$
-  - ''
+  - '&bootloader'
   - F1
   - F2
   - F3
@@ -102,7 +102,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - ''
+  - '&bootloader'
   - {type: held}
   - ''
   - ''
@@ -147,37 +147,37 @@ layers:
   Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
