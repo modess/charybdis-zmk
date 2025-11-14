@@ -11,6 +11,7 @@
 #define NUFU 2
 #define SYM 3
 #define SCROLL 4
+#define SNIPE 5
 
 &sl {
   release-after-ms = <250>;
@@ -62,7 +63,7 @@
         Base {
             label = "Base";
             bindings = <
-                &kp Q         &kp W         &lt SCROLL F  &kp P             &kp B          &kp J    &kp L         &lt SCROLL U   &kp Y            &mkp LCLK
+                &kp Q         &kp W         &lt SCROLL F  &lt SNIPE P       &kp B          &kp J    &lt SNIPE L   &lt SCROLL U   &kp Y            &mkp LCLK
                 &hml LSHFT A  &hml LGUI R   &hml LALT S   &hml LCTRL T      &kp G          &kp M    &hmr LCTRL N  &hmr LALT E    &hmr RGUI I      &hmr LSHFT O
                 &kp Z         &kp X         &kp C         &kp D             &kp V          &kp K    &kp H         &kp SV_A_RING  &kp SV_A_UMLAUT  &kp SV_O_UMLAUT
                                             &lt NUFU TAB  &lt MEDNAV SPACE  &mkp LCLK      &kp ESC  &lt SYM BSPC
@@ -105,6 +106,16 @@
                 &bootloader  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &bootloader
                 &trans       &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
                 &trans       &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans     &trans  &trans
+            >;
+        };
+
+        Snipe {
+            label = "Snipe";
+            bindings = <
+                &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans  &trans     &trans  &trans
             >;
         };
